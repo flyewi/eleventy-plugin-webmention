@@ -1,0 +1,30 @@
+{
+  "name": "eleventy-plugin-webmention",
+  "version": "0.1.0",
+  "description": "Eleventy plugin that fetches received webmentions from webmention.io and exposes them to templates via global data and a filter.",
+  "main": "lib/webmention.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "11ty",
+    "webmention",
+    "indieweb"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@11ty/eleventy": "^2.0.0 || ^3.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "lib"
+  ]
+}
