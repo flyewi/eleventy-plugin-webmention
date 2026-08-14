@@ -1,5 +1,7 @@
 # eleventy-plugin-webmention
 
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/flyewiy)
+
 Eleventy plugin that fetches received [webmentions](https://webmention.io) (likes, reposts, replies, mentions) for your site and exposes them to templates as global data, plus a filter to group them per page.
 
 ## Why
